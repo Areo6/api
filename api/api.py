@@ -167,5 +167,5 @@ api.add_resource(User, '/api/auth/login/<int:id>', endpoint='user_endpoint')
 api.add_resource(UserList, '/api/auth/register/')
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(host=(0.0.0.0), debug = True)
 
