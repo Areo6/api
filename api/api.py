@@ -156,8 +156,7 @@ class UserList(Resource):
         args = parser.parse_args()
         user = UserModel(
         name=args['name'],
-        email=args['email'],
-        user('malaba', 'mashauri', '125')
+        email=args['email'],        
         password=args['password'])
         user_manager.register(user)
         return user, status.HTTP_201_CREATED
