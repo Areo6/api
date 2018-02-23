@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body class="main-content">
+    <div class="section-content">
+        <form id="business">
+            <div class="container">
+                <p>Fill in This form to register your business</p>
+                <hr>
+                <div class="form-group">
+                    <label for="type">Business Type</label>
+                    <input type="text" placeholder="The Type of Your business" name="type" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Business Name</label>
+                    <input type="text" placeholder="The Name of your Business" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Business Description</label>
+                    <textarea rows=5 cols="90" name="description" form="business" placeholder="Enter your business description" required></textarea>
+                </div>
+                <div class="btn">
+                    <button type="button" class="btn">Cancel</button>
+                    <button type="submit" class="btn">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
