@@ -157,6 +157,7 @@ class UserList(Resource):
         user = UserModel(
         name=args['name'],
         email=args['email'],
+        user('malaba', 'mashauri', '125')
         password=args['password'])
         user_manager.register(user)
         return user, status.HTTP_201_CREATED
