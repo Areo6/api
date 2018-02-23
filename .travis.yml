@@ -4,8 +4,7 @@ python:
   - "3.5-dev"  # 3.5 development branch
 install:
   - pip install -r requirements.txt
-  - http POST :5000/api/businesses/ business_name='jpcom ltd' business_type="IT" business_desc='Information Technology'
 # command to run tests
 script:
   - python api/api.py
-  
+  - http POST :5000/api/businesses/ business_name='jpcom ltd' business_type="IT" business_desc='Information Technology'
